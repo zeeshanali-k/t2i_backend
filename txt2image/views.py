@@ -12,7 +12,7 @@ def t2i(request):
 
 def get_text2image(request):
     API_URL = "https://api-inference.huggingface.co/models/devscion/pakhistoricalplaces"
-    headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxx"}
+    headers = {"Authorization": "Bearer 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"}
 
     response = requests.post(
         API_URL, headers=headers,
